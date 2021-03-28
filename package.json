@@ -9,6 +9,7 @@
   "author": "Szymon Wasiak",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.7.1"
+    "cypress": "^6.7.1",
+    "cypress-iframe": "^1.0.1"
   }
 }

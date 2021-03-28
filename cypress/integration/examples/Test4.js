@@ -6,6 +6,8 @@ describe('My fourth Test Suite', function()
 it('My FirstTest case',function() {
  
 //Check boxes
+cy.visit(Cypress.env("url")+"/practice.php");
+
 cy.visit("http://qaclickacademy.com/practice.php")
 cy.get('#alertbtn').click()
 cy.get('[value="Confirm"]').click()
